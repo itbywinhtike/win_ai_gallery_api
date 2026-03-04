@@ -136,6 +136,23 @@
       ]
     },
     {
+      "name": "Gemma-3-270M-IT",
+      "modelId": "litert-community/gemma-3-270m-it",
+      "modelFile": "gemma3-270m-it-q8.litertlm",
+      "description": "Gemma 3 270M Instruct model with 8-bit quantization optimized for Android using LiteRT-LM.",
+      "sizeInBytes": 318767104,
+      "minDeviceMemoryInGb": 4,
+      "commitHash": "26d13ef",
+      "defaultConfig": {
+        "topK": 64,
+        "topP": 0.95,
+        "temperature": 1.0,
+        "maxTokens": 1024,
+        "accelerators": "gpu,cpu"
+      },
+      "taskTypes": ["llm_chat", "llm_prompt_lab"]
+    },
+    {
   "name": "Qwen-VL-0.8B-Instruct",
   "modelId": "litert-community/Qwen-VL-0.8B-Instruct",
   "modelFile": "qwen_vl_0.8b_int4.litertlm",
